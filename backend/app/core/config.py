@@ -10,9 +10,10 @@ class Settings(BaseSettings):
     ALGORITHM: str = "HS256"
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 60 * 24  # 1 day
 
+    
     # AI
-    OPENAI_API_KEY: str = ""
-    AI_MODEL: str = "gpt-4o"
+    GEMINI_API_KEY: str = ""
+    AI_MODEL: str = "gemini-2.0-flash"
 
     # Code execution timeout (seconds)
     EXECUTION_TIMEOUT: int = 10
