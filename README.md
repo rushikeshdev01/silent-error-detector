@@ -12,3 +12,9 @@ An AI-powered code error detector for beginners built with:
 - Detects runtime and logical errors
 - AI explains errors in beginner-friendly language
 - User authentication with JWT
+
+## How to Run
+
+1. Start backend: `uvicorn main:app --port 8001`
+2. Start frontend: `npm run dev`
+3. Open http://localhost:5173
